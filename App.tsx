@@ -25,9 +25,9 @@ const properties: Property[] = [
   },
 ];
 
-const residentialProperties = properties;
+const residentialProperties = properties; // Solve Question 1 here
 
-const suitespotProperties = properties;
+const suitespotProperties = properties; // Solve Question 2 here
 
 export default function App() {
   return (
