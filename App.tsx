@@ -25,6 +25,10 @@ const properties: Property[] = [
   },
 ];
 
+const residentialProperties = properties;
+
+const suitespotProperties = properties;
+
 export default function App() {
   return (
     <main>
@@ -36,8 +40,11 @@ export default function App() {
         </li>
       </ul>
 
-      <h2>Properties</h2>
-      <pre>{JSON.stringify(properties, null, 2)}</pre>
+      <h2>Residential Properties</h2>
+      <pre>{JSON.stringify(residentialProperties, null, 2)}</pre>
+
+      <h2>SuiteSpot Properties</h2>
+      <pre>{JSON.stringify(suitespotProperties, null, 2)}</pre>
     </main>
   );
 }
